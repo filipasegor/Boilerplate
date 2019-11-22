@@ -1,12 +1,55 @@
-
-body{
-  margin: 30px 30px 30px 30px;
-}
+@media (min-width: 1440px){
 
 
-h2{
-  color: #ffffff;
-  background-color: #000000;
-  margin: 50px 0px 50px 0px;
-  font-size: 30px;
+
+  body{
+    margin: 30px 30px 30px 30px;
+    width: 1440px;
+  }
+
+
+  .me{
+    color: white;
+    background-color: #E5E000;
+    padding: 80px 485px 80px 485px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Helvetica Bold";
+  }
+
+  .img{
+    height: 1080px;
+    background-image: url(../img.png);
+  }
+
+  .page-name{
+    color: white;
+    background-color: #E5E000;
+    padding: 40px 376px 40px 0px;
+  }
+
+  .page-name h2{
+    margin-left: 80px;
+    font-size: 25px;
+    font-family: "Helvetica Regular";
+  }
+
+  .disription{
+    padding: 110px 80px 110px 80px;
+    font-family: "Helvetica Bold";
+    font-size: 50px;
+  }
+
+  .disription p{
+    margin-bottom: 50px;
+  }
+
+  footer{
+    background-color: #E5E000;
+  }
+
+  .footer img{
+    padding: 77px 1155px 77px 80px;
+  }
+
 }
