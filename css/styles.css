@@ -1,55 +1,107 @@
-@media (min-width: 1440px){
+/* body{
+  margin: 0 50px 0 50px;
+} */
 
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 50px 50px 50px;
+}
 
-  .chinesse{
-    padding: 30px 0px 30px 30px;
-    background-color: red;
-    font-family: "Helvetica Bold";
-    font-size: 20px;
-    color: white;
-  }
+.logo img{
+  width: 120px;
+}
 
-  .wrapper{
-    display: flex;
-    justify-content: space-around;
-    margin: 52px auto;
-  }
+.links{
+  display: flex;
+  justify-content: space-between;
+}
 
-
-  .Fresh-Strawberry-Tart-first{
-    padding: 27px 33px 40px 33px;
-    border: 5px solid #E5E000;
-    box-sizing: border-box;
-    border-radius: 30px;
-    font-family: "Helvetica Regular";
-    font-size: 20px;
-    display: inline-block;
-    width: 400px;
-  }
-
-  .first-column, .second-column, .third-column {
-    margin-bottom: 40px;
-  }
-
-  h2{
-    margin-bottom: 60px;
-    font-family: "Helvetica Bold";
-    font-size: 30px;
-
-  }
+.links li{
+  font-size: 45px;
+  font-family: 'Helvetica Regular';
+  color: #E50043;
+  padding-right: 20px;
+}
 
 
-  footer{
-    padding: 30px 30px 30px 30px;
-    background-color: red;
-    font-family: "Helvetica Bold";
-    font-size: 20px;
-    color: white;
-  }
+.is-h1{
+  height: 950px;
+  background-image: url(../images/evian_origins_logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
 
-  ul{
-    display: flex;
-    justify-content: space-between;
-  }
+.text-h1{
+  margin: auto;
+  font-size: 100px;
+  font-family: 'Helvetica Bold';
+  color: #E50043;
+}
+
+.is-discription{
+  display: flex;
+}
+
+.is-our-water{
+  margin: auto;
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  padding: 30px 80px 30px 80px;
+  width: 1040px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.is-our-water p{
+  font-size: 25px;
+  font-family: 'Helvetica Regular';
+  line-height: 29px;
+}
+
+.is-bottles{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.is-first-bottle, .is-second-bottle, .is-third-bottle{
+  text-align: center;
+  font-size: 25px;
+  line-height: 29px;
+  font-family: 'Helvetica Regular';
+}
+
+.is-evian-about{
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.is-evian-about-discription{
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  border: 3px solid #F8BFC7;
+  border-radius: 20px;
+  font-size: 25px;
+  font-family: 'Helvetica Regular';
+  line-height: 29px;
+  margin: auto;
+  padding: 30px 80px 30px 80px;
+}
+
+.is-footer{
+  background-color: #F8BFC7;
+  font-size: 50px;
+  font-family: 'Helvetica Regular';
+}
+
+.is-footer ul{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
 }
