@@ -1,0 +1,82 @@
+
+header{
+  background-color: #FEB700;
+  display: flex;
+}
+
+.header{
+  margin: auto;
+  font-family: 'Helvetica Regular';
+  font-size: 50px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  /* width: 80vw; */
+  margin: auto;
+  align-items: flex-start;
+
+  padding: 70px 70px 70px 70px;
+}
+
+.is-first-column, .is-sesond-column, .is-third-column{
+
+  width: calc((100% - 100px)/3);
+
+  border: 1px solid #000000;
+
+  font-size: 20px;
+}
+
+
+h2{
+  font-family: 'Helvetica Bold';
+  margin: 50px 0 50px 0px;
+}
+
+p{
+  font-family: 'Helvetica Regular';
+}
+
+.text{
+
+  padding: 30px 30px 30px 30px;
+
+}
+
+.is-first-image, .is-second-image, .is-third-image {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 130%;
+}
+
+
+.is-first-image{
+  background-image: url(../img/Samosa.jpg);
+}
+
+
+.is-second-image{
+  background-image: url(../img/Yogurt.jpg);
+}
+
+.is-third-image{
+  background-image: url(../img/Granola.jpg);
+}
+
+.is-footer{
+  background-color: #FEB700;
+  font-size: 50px;
+  font-family: 'Helvetica Regular';
+}
+
+.is-footer ul{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
